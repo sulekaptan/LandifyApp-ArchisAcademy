@@ -12,6 +12,8 @@ left: 0px;
 top: 0px;
 background-size: cover;
   background-position: center;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden;
 
 }
 .hero{
