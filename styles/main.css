@@ -3,23 +3,31 @@
     padding: 0;
     box-sizing: border-box;
     background-size: cover;
+    outline: none;
 }
-.body{
-    position: absolute;
-width: 1440px;
-height: 866px;
-left: 0px;
-top: 0px;
-background-size: cover;
-  background-position: center;
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden;
+html,body,
+ul, ol{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+button{
+    border: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
 
-}
 .hero{
     
-    width: 1440px;
+    width: 100%;
     height: 866px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 .nav{
@@ -167,6 +175,7 @@ background-size: cover;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
+    cursor: pointer;
 
 }
 
@@ -183,4 +192,102 @@ background-size: cover;
     height: 640px;
 
 
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 950px;
+    max-width: 1100px;
+    padding: 1.5em;
+    margin-top: 50em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  
+
+}
+.section-features-title{
+    margin-top: 80px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.features-title-h2{
+    
+    width: 540px;
+    height: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 68px;
+    color: #18191F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.features-title-p{
+    
+    width: 540px;
+    height: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.features-list{
+    float: left;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.features-item{
+    margin-top: 48px;
+    float: left;
+    margin-left: 130px;
+    gap: 24px;
+}
+.features-item h5{
+    text-align: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+}
+.features-item p{
+    text-align: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+}
+.features-item img{
+   display: block;
+   margin: auto;
 }
