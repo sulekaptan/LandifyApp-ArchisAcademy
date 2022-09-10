@@ -435,6 +435,11 @@ a {
     width: 254px;
     color: #18191F;
     height: 256px;
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 }
 
 .stats-left h2 {
@@ -551,4 +556,58 @@ a {
     color: #18191F;
     margin-left: 78px;
     margin-top: 1em;
+<<<<<<< Updated upstream
+=======
+}
+.features-single-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-single-left-2 h3{
+    margin-top: 128px;
+    margin-left: 165px;
+    width: 540px;
+height: 108px;
+
+/* Heading / H3 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 54px;
+/* or 135% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+}
+.features-single-right-2 p{
+    margin-top: 128px;
+    width: 540px;
+height: 128px;
+
+/* Lead / Lead 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+}
+.cover-image img{
+    margin-top: 58px;
+    margin-left: 290px;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
