@@ -435,11 +435,6 @@ a {
     width: 254px;
     color: #18191F;
     height: 256px;
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
 }
 
 .stats-left h2 {
@@ -475,15 +470,14 @@ a {
     justify-content: center;
     align-items: center;
 }
-
 .stats-right {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 540px;
     height: 172px;
-    margin-top: 64px;
-    margin-left: 165px;
+    /* margin-top: 64px; */
+    /* margin-left: 165px; */
 }
 
 .stats-item img {
@@ -523,7 +517,8 @@ a {
     margin-top: 64px;
     margin-left: 165px;
 }
-.features-single h3{
+
+.features-single h3 {
     width: 444px;
     height: 54px;
     margin-left: 78px;
@@ -536,48 +531,110 @@ a {
 
     color: #18191F;
 }
-.features-single p{
+
+.features-single p {
     width: 444px;
     height: 160px;
-    
+
     /* Lead / Lead 1 */
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     /* or 178% */
-    
+
     font-feature-settings: 'salt' on, 'liga' off;
-    
+
     /* Text / Gray 900 */
-    
+
     color: #18191F;
     margin-left: 78px;
     margin-top: 1em;
-<<<<<<< Updated upstream
-=======
+
 }
+
 .features-single-2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.features-single-left-2 h3{
+
+.features-single-left-2 h3 {
     margin-top: 128px;
     margin-left: 165px;
     width: 540px;
-height: 108px;
+    height: 108px;
 
-/* Heading / H3 */
+    /* Heading / H3 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    /* or 135% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+}
+
+.features-single-right-2 p {
+    margin-top: 128px;
+    width: 540px;
+    height: 128px;
+
+    /* Lead / Lead 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+}
+
+.cover-image img {
+    margin-top: 58px;
+    margin-left: 290px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2EC5CE;
+    margin-top: 64px;
+    height: 418px;
+    width: 100%;
+    left: 0px;
+    top: 4280px;
+    border-radius: 0px;
+
+}
+.cta-left h2{
+    margin-left: 165px;
+    width: 540px;
+height: 128px;
+
+/* Heading / H2 */
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
-font-size: 40px;
-line-height: 54px;
-/* or 135% */
+font-size: 48px;
+line-height: 64px;
+/* or 133% */
 
 font-feature-settings: 'salt' on, 'liga' off;
 
@@ -585,10 +642,9 @@ font-feature-settings: 'salt' on, 'liga' off;
 
 color: #18191F;
 }
-.features-single-right-2 p{
-    margin-top: 128px;
+.cta-left p{
     width: 540px;
-height: 128px;
+height: 96px;
 
 /* Lead / Lead 1 */
 
@@ -604,10 +660,64 @@ font-feature-settings: 'salt' on, 'liga' off;
 /* Text / Gray 900 */
 
 color: #18191F;
+margin-left: 165px;
 }
-.cover-image img{
-    margin-top: 58px;
-    margin-left: 290px;
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+.cta-left-imgs{
+    margin-top: -45px;
+    margin-left: 165px;
+    cursor: pointer;
 }
+.cta-right{
+    height:  100%;
+    
+}
+footer {
+   
+    background: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0;
+  }
+  
+  .footer-wrapper {
+    margin-left: 165px;
+    width: 1100px;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-list{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400; 
+    gap: 20px;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .footer-left p{
+   color: white; 
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+  }
+  .footer-right{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .footer-right-imgs{
+    cursor: pointer;
+    float: left;
+  }
